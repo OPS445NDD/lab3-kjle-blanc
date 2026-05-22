@@ -27,7 +27,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: lab3b
-        setup-command: python3 ./CheckLab2.py -f -v
+        setup-command: python3 ./CheckLab3.py -f -v
         command: python3 ./CheckLab3.py -f -v lab3b
         timeout: 10
         max-score: 1
